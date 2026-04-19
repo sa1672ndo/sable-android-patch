@@ -4,7 +4,9 @@ plugins {
 }
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
-
+jar {
+    exclude 'dev/**'
+}
 dependencies {
     implementation "net.neoforged:neoforge:${neo_version}"
     compileOnly files("sable.jar")
