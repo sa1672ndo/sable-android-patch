@@ -20,6 +20,14 @@ jobs:
 
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
+        
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install wget
+      - name: Download sable
+        run: |
+            wget -O sable.jar https://cdn.modrinth.com/data/T9PomCSv/versions/hYzKWPNY/sable-neoforge-1.21.1-1.0.4.jar 
 
       - name: Make Gradle Wrapper Executable
         run: chmod +x ./gradlew
