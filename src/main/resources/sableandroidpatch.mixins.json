@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.sa1672ndo.sableandroidpatch.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "Rapier3DMixin",
+    "Rapier3DAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

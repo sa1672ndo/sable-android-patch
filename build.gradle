@@ -1,0 +1,13 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.gradle.userdev' version '7.1.22'
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+dependencies {
+    implementation "net.neoforged:neoforge:${neo_version}"
+    compileOnly files("sable.jar")
+ // You must get sable yourself to build this mod. 
+}
+
