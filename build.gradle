@@ -9,7 +9,5 @@ jar {
 }
 dependencies {
     implementation "net.neoforged:neoforge:${neo_version}"
-    compileOnly files("sable.jar")
- // You must get sable yourself to build this mod. 
 }
 
