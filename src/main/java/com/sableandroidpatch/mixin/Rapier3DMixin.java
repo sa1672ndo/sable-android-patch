@@ -19,11 +19,9 @@ public class Rapier3DMixin {
             Path tempFile = Files.createTempFile("sable_rapier_natives", null);
             Files.copy(is, tempFile, StandardCopyOption.REPLACE_EXISTING);
             System.load(tempFile.toAbsolutePath().toString());
-            Rapier3DAccessor.setEnabled(true);
             } 
             catch (Throwable t) 
             {
-            Rapier3DAccessor.setEnabled(false);
             t.printStackTrace();
         }
     }
