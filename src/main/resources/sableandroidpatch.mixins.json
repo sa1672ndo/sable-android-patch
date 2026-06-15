@@ -4,7 +4,8 @@
   "package": "com.sa1672ndo.sableandroidpatch.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "Rapier3DMixin"
+    "Rapier3DMixin",
+    "Rapier3DAccessor"
   ],
   "injectors": {
     "defaultRequire": 1
