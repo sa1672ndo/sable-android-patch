@@ -9,6 +9,6 @@ Android sable_rapier native source code can be found here: https://github.com/ak
 Download the repo, get jdk21 and run ``./gradlew build`` on linux or ``gradlew.bat build`` on windows.
 
 # Download links for prebuilt mod jar
-https://github.com/sa1672ndo/sable-android-patch/releases/tag/1.0.0  
+https://github.com/sa1672ndo/sable-android-patch/releases/latest
 https://www.curseforge.com/minecraft/mc-mods/sable-android-patch        
 https://modrinth.com/mod/sable-android-patch (under review) 
