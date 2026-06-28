@@ -1,10 +1,10 @@
 # Sable android patch
 <a href="https://github.com/sa1672ndo/sable-android-patch"><img src="./src/main/resources/icon.png" width="125"/></a>
 
-<a style="text-align: left;">
-    <b href="https://modrinth.com/mod/sable-android-patch"><img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg" alt="Modrinth" style="margin: 5px 5px;"></b>
-    <b href="https://www.curseforge.com/minecraft/mc-mods/sable-android-patch"><img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/curseforge_vector.svg" alt="Curseforge" style="margin: 5px 5px;"></b>
-</a>
+<p style="text-align: left;">
+    <a href="https://modrinth.com/mod/sable-android-patch"><img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg" alt="Modrinth" style="margin: 5px 5px;"></a>
+    <a href="https://www.curseforge.com/minecraft/mc-mods/sable-android-patch"><img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/curseforge_vector.svg" alt="Curseforge" style="margin: 5px 5px;"></a>
+</p>
 
 Allows you to run sable on android by modifying it's `loadLibrary` method to load android native included in this patch mod.
 
