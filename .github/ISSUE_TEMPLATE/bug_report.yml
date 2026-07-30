@@ -1,0 +1,32 @@
+
+name: Bug report
+description: Create a report to help us improve
+title: ""
+labels:
+  - bug
+assignees:
+  - sa1672ndo
+
+body:
+  - type: textarea
+    id: bug
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Attach the log
+      description: |
+        Attach the log file obtained from the launcher by pressing the "Share log file" button inside it.
+
+        The log must contain:
+        - Launcher logs (device, launcher and renderer-related info)
+        - MC logs
+        - MC crash log (if the game crashed)
+      placeholder: Drag and drop the log file here.
+    validations:
+      required: true
